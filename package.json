@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "dev": "next dev"
+  "scripts":{ 
+  "vercel-build": "npm run prepare && next build" 
   },
+   
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
